@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Favorite Pet Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Favorite Pet Form</h1>
+    <p id="description">Please fill this form and choose you'r favorite pet</p>
+    <form id="survey-form">
+      <label id="name-label">Name<input id="name" placeholder="Enter your name" required/></lable>
+      <label id="email-label">Email<input id="email" placeholder="Enter your email" type="email" required/></lable>
+      <label id="number-label">Age<input id="number" min="8" max="120" placeholder="Enter your age" type="number" /></lable>
+<label>Gender</label>
+      <select id="dropdown">
+        <option value="">(select one)</option>
+        <option id="male" value="1">Male</option>
+        <option id="female" value="2">Female</option>
+
+      </select>
+<label>Favorite pet</label
+      <label><input type="radio" value="dog" id="dog"name="pet"/>Dog</lable>
+      <label><input type="radio" value="cat"id="cat" name="pet"/>Cat</lable>
+<label>Favorite food of your pet</label>
+      <label><input type="checkbox" value="homemade-food"/>Homemade food</label>
+      <label><input type="checkbox" value="store-bought-food"/>Store-bought food</label>
+
+      <label>Please share a story or memorable experience with your pet.</label>
+      <textarea id="story" name="story"></textarea>
+
+      <input id="submit" type="submit"/>
+    </form>
+
+  </body>
